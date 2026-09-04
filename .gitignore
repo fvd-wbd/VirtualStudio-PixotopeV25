@@ -1,0 +1,62 @@
+# Unreal Engine .gitignore
+
+# Compiled source
+Binaries/
+DerivedDataCache/
+Intermediate/
+
+# Build artifacts
+Build/
+
+# Saved data (local settings, autosaves, logs, etc.)
+Saved/
+
+# IDE / editor files
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Visual Studio generated files
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Crashpad / crash reports
+CrashReportClient/
+
+# Swarm Agent
+SwarmAgent.DeveloperOptions.xml
+
+# Unreal-specific temp files
+*.pdb
+*.target
+*.modules
+*.version
+*.hotreload
+
+# Console/platform-specific directories
+PersistentDownloadDir/
+
+# Compiled shader cache
+GlobalShaderCache*.bin
+*.upipelinecache
+*.ushaderbytecode
+
+# Asset registry cache
+AssetRegistryCache/
+
+# Local DDC
+LocalDerivedDataCache/

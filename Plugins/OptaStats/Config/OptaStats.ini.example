@@ -1,0 +1,7 @@
+; Copy this file to Config/OptaStats.ini (same folder) and fill in your real API key.
+; Config/OptaStats.ini is git-ignored and will NOT be committed to the repository.
+; Alternatively, set the WBD_FOOTBALL_API_KEY environment variable, which takes
+; precedence over this file and is the recommended approach for CI/build machines.
+
+[OptaStats]
+FootballApiKey=YOUR_FOOTBALL_API_COM_KEY_HERE
